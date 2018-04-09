@@ -1,37 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                
 <link rel="stylesheet" type="text/css" href="mystyle.css">
     <style>
+        {
+            box-sizing: border-box;
+        }
+        
         body {
-    background-color:Beige;
+        margin: 0;
+        font-family: "Niagara Engraved";
+        background-color:Beige;
     }
+        
+    .header {
+  grid-area: header;
+  background-color: beige;
+  padding: 30px;
+  text-align: left;
+  font-size: 30px;
+    }
+            .sidenav {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 00;
+    background-color: maroon;
+    border: 5px ridge Crimson;
+    overflow-x: hidden;
+}
+        .sidenav a{
+            color:aliceblue;
+            padding: 16px;
+            text-decoration:none;
+            font-size:30px; 
+            display:block;
+        }
+        
+        .sidenav a:hover {
+            color: lightcyan
+        }
+        
+        .content{
+            margin-left: 200px;
+            padding-left: 20px;
+        }
+        
+        h1 {
+            background-color: goldenrod;
+            padding: 20px;
+            text-align: center;
+            font-family: "Niagara Engraved";
+            background-color:goldenrod;
+            border: 5px ridge Crimson;
+        }
         p.sans{
             font-family: "Niagara Engraved";
-            font-size: 25px;
+            font-size: 30px;
+            text-align: center;
+            color:black
         }
         
         pre.sans{
             font-family: "Niagara Engraved";
-            font-family: 25px;
+            font-size: 27px;
+            text-align:center;
         }
+        img{
+            float: none;
+        }
+        
     </style>
-    <h1 style="background-color:goldenrod; border: 5px solid Crimson; text-align: center;"> Welcome!</h1>
-    
-    <p class="sans">Welcome to Dappered Studios! You may ask yourself; what is this place? How did one link get me from a Youtube channel to what looks like... some sort of gameshow? Well, no, this is not a gameshow; this is a website. More importantly, this is <b>my</b> website! In hindsight, though there's not much here now, this is an artistic portfolio site, fitted for both the creator and the user; A place for me (the creator) to store all my creations into one neat pile, and a place for you (the user) to explore and enjoy this site's content as much as you like. Here you can find a slew of three major categories following the lines of:</p>
-    <pre class= "sans">
-    Alluring Art
-    Mystical Music
-    and Fascinating Film!</pre>
-    
-    <p class="sans">So make yourself comfortable and feel free to satiate your creative hunger!</p>
-    
-    <pre>
-    <a href="https://jonasd33.github.io/Web-Design-Project/blogspot.html">Visit the Blog Spot Here!</a>
+    </head>
+    <body>
+    <div class="header">
+        <h1>Welcome</h1>
+        </div>
+    <div class="sidenav">
+        <a href="https://jonasd33.github.io/Web-Design-Project/blogspot.html">Visit the Blog Spot Here!</a>
     <a href="https://jonasd33.github.io/Web-Design-Project/ambitions.html">See all the Upcoming Projects!</a>
     <a href="https://jonasd33.github.io/Web-Design-Project/library.html">Stop by the Digital Library!</a>
     <a href="https://jonasd33.github.io/Web-Design-Project/about.html">Learn about the Creator!</a>
     <a href="https://jonasd33.github.io/Web-Design-Project/contact.html">Get In Touch!</a>
-    </pre>
+        </div>
+    </body>
+        
+    <img src="images/homebutton.jpg" width="200" height="140">
+        
+ 
+        <p class="sans">Welcome to Dappered Studios! You may ask yourself; what is this place? How did one link get me from a Youtube channel or Vimeo page to what looks like... some sort of gameshow? Well, no, this is not a gameshow; this is a website. More importantly, this is <b>my</b> website! Though there's not much here to see now, this is an artistic portfolio site, fitted for both the creator and the user; A place for me (the creator) to store all my creations into one neat pile, and a place for you (the user) to explore and enjoy this site's content as much as you like. Here you will find a combination of these three major categories, following along the lines of:</p>
+    <pre class= "sans">
+    Alluring Art!
+    Mystical Music!
+    Fascinating Film!</pre>
+    
+    <p class="sans">So make yourself comfortable and feel free to explore!</p>
+    
+    
+    
+    
 </html>
 
