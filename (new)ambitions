@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117526625-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117526625-1');
+</script>
+
+    
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+   <style>
+         {
+            box-sizing: border-box;
+        }
+        
+        body {
+        margin: 0;
+        font-family: "Niagara Engraved";
+        background-color:Beige;
+    }
+        
+    .header {
+    background-color: beige;
+  padding: 0px;
+  text-align: center;
+  font-size: 30px;
+    }
+            .sidenav {
+   position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    background-color: maroon;
+    border: 5px ridge Crimson;
+    
+}
+        .sidenav a{
+            color:aliceblue;
+            margin: 29px 39.5px 99px 30px ;
+            text-decoration:none;
+            font-size:28px; 
+            display:block;
+        }
+        
+        .sidenav a:hover {
+            color: lightcyan
+        }
+        
+        .content{
+            margin-left: 280px;
+            margin-top: -40px;
+            font-size: 30px;
+        }
+        
+        h1 {
+            background-color: goldenrod;
+            padding: 20px;
+            text-align: center;
+            font-family: "Niagara Engraved";
+            background-color:goldenrod;
+            border: 5px ridge Crimson;
+        }
+        p.sans{
+            font-family: "Niagara Engraved";
+            font-size: 30px;
+            text-align: center;
+            color:black
+        }
+        
+        pre.sans{
+            font-family: "Niagara Engraved";
+            font-size: 27px;
+            text-align:center;
+        }
+        img{
+            float: left;
+        }
+               </style> 
+        </head>
+     <div class="sidenav">
+        <a href="https://jonasd33.github.io/Web-Design-Project/blogspot.html">Visit the Blog Spot Here!</a>
+    <a href="https://jonasd33.github.io/Web-Design-Project/ambitions.html">See all the Upcoming Projects!</a>
+    <a href="https://jonasd33.github.io/Web-Design-Project/library.html">Stop by the Digital Library!</a>
+    <a href="https://jonasd33.github.io/Web-Design-Project/about.html">Learn about the Creator!</a>
+    <a href="https://jonasd33.github.io/Web-Design-Project/contact.html">Get In Touch!</a>
+        <a href="https://jonasd33.github.io/Web-Design-Project/survey.html"> Take the Survey!</a>
+        </div>
+    
+    <div class="content">
+        <div class="header">
+             <a href="https://jonasd33.github.io/Web-Design-Project"><img  src="images/homebutton.jpg" width="200" height="115"></a>
+            <h1>Ambitions</h1>
+        
+        <h2>Projects:</h2></div>
+        <p>Hello! This will be the place to see works in progress and other pieces in development!Not much for the time being, but there will be in the future!</p>
+        
+</html>
