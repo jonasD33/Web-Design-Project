@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117526625-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117526625-1');
+</script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        $("p").hide(1000, function(){
+                  });
+    });
+    $(".btn2").click(function(){
+        $("p").show(1000, function(){
+           
+        });
+    });
+});
+</script>
+    
+<script>
+$(document).ready(function(){
+    $(".btn3").click(function(){
+        $("p2").hide(1000, function(){
+                  });
+    });
+    $(".btn4").click(function(){
+        $("p2").show(1000, function(){
+           
+        });
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $(".btn5").click(function(){
+        $("p3").hide(1000, function(){
+                  });
+    });
+    $(".btn6").click(function(){
+        $("p3").show(1000, function(){
+           
+        });
+    });
+});
+</script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+         {
+            box-sizing: border-box;
+        }
+        
+        body {
+        margin: 0;
+        font-family: "Niagara Engraved";
+        background-color:Beige;
+    }
+        
+    .header {
+    background-color: beige;
+     padding: -10px;
+  text-align: center;
+    font-family: "Niagara Engraved";
+  font-size: 39px;
+    }
+            .sidenav {
+   position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    background-color: maroon;
+    border: 5px ridge Crimson;
+    
+}
+        .sidenav a{
+            color:aliceblue;
+            margin: 20px 39.8px 105px 29.9px ;
+            text-decoration:none;
+            font-size:28px; 
+            display:block;
+        }
+        
+        .sidenav a:hover {
+            color: lightcyan
+        }
+        
+        .content{
+            margin-left: 280px;
+            margin-top: -50px;
+            font-family: "Niagara Engraved";
+            font-size: 25px;
+        }
+        
+     
+        h1 {
+            background-color: goldenrod;
+            padding: 10px;
+            text-align: center;
+            background-color:goldenrod;
+            border: 5px ridge Crimson;
+        }
+        
+       
+        pre.sans{
+            font-family: "Niagara Engraved";
+            font-size: 27px;
+            text-align:center;
+        }
+        img{
+            float: left;
+        }
+       
+      
+        
+        
+    </style>
+    </head>
+    <div class="sidenav">
+        <a href="https://jonasd33.github.io/Web-Design-Project/blogspot.html">Visit the Blog Spot Here!</a>
+    <a href="https://jonasd33.github.io/Web-Design-Project/ambitions.html">See all the Upcoming Projects!</a>
+    <a href="https://jonasd33.github.io/Web-Design-Project/library.html">Stop by the Digital Library!</a>
+    <a href="https://jonasd33.github.io/Web-Design-Project/about.html">Learn about the Creator!</a>
+    <a href="https://jonasd33.github.io/Web-Design-Project/contact.html">Get In Touch!</a>
+        <a href="https://jonasd33.github.io/Web-Design-Project/survey.html"> Take the Survey!</a>
+        </div>
+    
+    
+    <div class="content">
+        <div class="header">
+            <a href="https://jonasd33.github.io/Web-Design-Project"><img  src="images/homebutton.jpg" width="200" height="115"></a>
+            <h1>Digital Library (Test Page)</h1></div>
+   <ul><button class="btn1"><h2 style= "font-size: 40px; font-family: Niagara Engraved;">Hide Art Gallery</h2></button>
+
+         <button class="btn3"><h2 style= "font-size: 40px; font-family: Niagara Engraved;">Hide Film Archive</h2></button>
+
+         <button class="btn5"><h2 style="font-size: 40px; font-family: Niagara Engraved;">Hide Music Cloud</h2></button>
+             
+         
+<ul><p><h3>This is just a preview of some artwork; hopefully there will be more to come in the future!</h3>   
+    <img src="images/Nilphobellia%20Fossil%20Display.jpg" width="256" height="218"></p></p>
+
+         
+     
+    <ul><p2><h3>A Season In Kem Kem:</h3>     
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/GRmnuaPAnXY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p2></ul>
+     
+     <ul><p3><h3>Sorry! Not much here yet, but it's on the way, so stay tuned!</h3></p3></ul>
+     
+      
+
+<ul><button class="btn2"><h2 style= "font-size: 40px; font-family: Niagara Engraved;">Show Art Gallery</h2></button>
+        
+<button class="btn4"><h2 style="font-size: 40px; font-family: Niagara Engraved;">Show Film Archive</h2></button>
+   
+<button class="btn6"><h2 style="font-size: 40px; font-family: Niagara Engraved;">Show Music Cloud</h2></button></ul>
+   
+    </body>
+    </html>
